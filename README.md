@@ -83,7 +83,7 @@ Copy and run these queries in `psql` or pgAdmin / DBeaver to create the schema:
 -- ============================================================================
 -- 1. EXTENSIONS & ENUMS
 -- ============================================================================
-CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
+CREATE DATABASE TechRescuedb;
 
 DO $$ BEGIN
     CREATE TYPE user_role AS ENUM ('CLIENT', 'EXPERT', 'ENGINEER', 'ADMIN');
